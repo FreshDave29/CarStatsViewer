@@ -3,7 +3,7 @@
 
     <!-- PermissionsActivity -->
     <string name="permissions_dialog_title">Berechtigungen notwendig</string>
-    <string name="permissions_dialog_text">Diese App benötigt Berechtigungen, um genuzt zu werden. Ohne die angeforderten Berechtigungen können keine Daten des Fahrzugs erfasst werden.</string>
+    <string name="permissions_dialog_text">Diese App benötigt Berechtigungen, um genutzt zu werden. Ohne die angeforderten Berechtigungen können keine Daten des Fahrzugs erfasst werden.</string>
     <string name="permissions_dialog_quit">Car Stats Viewer beenden</string>
     <string name="permissions_dialog_grant">Berechtigungen erteilen</string>
 
