@@ -34,7 +34,9 @@ class PermissionsActivity: Activity() {
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         InAppLogger.log("onRequestPermissionResult")
-        if(grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED)
+        if(grantResults[0] == PackageManager.PERMISSION_GRANTED &&
+            grantResults[1] == PackageManager.PERMISSION_GRANTED
+        )
         {
             finish()
             startActivity(Intent(applicationContext, MainActivity::class.java))
